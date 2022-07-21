@@ -1,0 +1,73 @@
+<?php include('header.php'); ?>
+<?php include('nav.php'); ?>
+
+<section id="food">
+  <h2>Unsere Top 10 </h2>
+
+  Auf dieser Seite findest du unsere <strong> Top 10 </strong> Früchte. <br>
+Anhand dieser Kriterien haben wir unsere persönliche <strong> Top 10 </strong> der Füchte erstellt:
+
+    <ol>
+    <li>
+    Geschmak
+    </li>
+    <li>
+    Geruch
+    </li>
+     <li> 
+     Gesundheit
+    </li>
+    <li> 
+     Beliebtheit
+    </li>
+    <li> 
+     Inhaltsstoffe
+     </li>
+    </ol >
+</div>
+
+Klick auf die einzelnen Felder und um mehr zu erfahren:<br>
+
+  <div class="food-container container">
+    <div class="food-type fruit">
+       <div class="img-container">
+         <img src="Assets/Apfel.jpg" alt="">
+         <div class="img-content">
+           <h3>Platz 1: Der Apfel</h3>
+           <a href="Apfel.php" target="_blank" class="button">klicke hier um mehr zu erfahren</a>
+         </div>
+       </div>
+    </div>
+
+    <div class="food-type vegetable">
+       <div class="img-container">
+         <img src="Assets/Banane.jpg"alt="">
+         <div class="img-content">
+           <h3>Platz 2: Die Banane</h3>
+           <a href="#" target="_blank" class="btn btn-outline-primary">learn more </a>
+         </div>
+       </div>
+     </div>
+
+     <div class="food-type vegetable">
+       <div class="img-container">
+         <img src="Assets/Apfel.jpg"alt="">
+         <div class="img-content">
+           <h3>Vegetable</h3>
+           <a href="#" target="_blank" class="btn btn-outline-primary">learn more </a>
+         </div>
+       </div>
+     </div>
+
+     <div class="food-type grain">
+  <div class="img-container">
+    <img src="Assets/Apfel.jpg"alt="">
+    <div class="img-content">
+      <h3>Grain</h3>
+      <a href="#" target="_blank" class="btn-outline-primary">learn more </a>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<?php include('footer.php');?>
